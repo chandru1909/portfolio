@@ -27,7 +27,7 @@ import ProjectCarousel from './ProjectCarousel';
 export const Profile = () => {
   return (
     <>
-    <main>
+    <main className=''>
         <section className='bg-ffead9'>
         <div className='container-xl px-xl-0 px-4 '>
             <div className="row align-items-center">
@@ -78,40 +78,40 @@ export const Profile = () => {
                         <div className='yellow-round-small speciality d-md-block d-none rounded-circle'></div>
                         <h5 className='fw-900 display-6 mt-4 pb-md-5 mb-0 position-relative z-index-20'>My Specialties</h5>
                  </div>
-              <div className="row py-4">
+              <div className="row mx-2 py-4">
                  <div className="col-md-8">
                  <div className="row">
-                    <div className="col-sm-4 col-6 mt-sm-0 mt-3">
+                    <div className="col-sm-4 col-6 mx-0 mt-sm-0 mt-3">
                         <div className='bg-f2f2f2 rounded p-3 d-flex flex-column h-126px justify-content-between align-items-center'>
                            <img src={golang} alt="glong" />
                            <h6 className='fw-bold'>Golang</h6>
                         </div>
                     </div>
-                    <div className="col-sm-4 col-6 mt-sm-0 mt-3">
+                    <div className="col-sm-4 col-6 mx-0 mt-sm-0 mt-3">
                     <div className='bg-f2f2f2 rounded p-3 d-flex flex-column h-126px justify-content-between align-items-center'>
                            <img src={dj} alt="dj" />
                            <h6 className='fw-bold'>Django</h6>
                         </div>
                     </div>
-                    <div className="col-sm-4 col-6 mt-sm-0 mt-3">
+                    <div className="col-sm-4 col-6 mx-0 mt-sm-0 mt-3">
                     <div className='bg-f2f2f2 rounded p-3 d-flex flex-column h-126px justify-content-between align-items-center'>
                            <img src={node} alt="node" />
                            <h6 className='fw-bold'>Node.js</h6>
                         </div>
                     </div>
-                    <div className="col-sm-4 col-6 mt-3">
+                    <div className="col-sm-4 col-6 mx-0 mt-3">
                     <div className='bg-f2f2f2 rounded p-3 d-flex flex-column h-126px justify-content-between align-items-center'>
                            <img src={aws} alt="aws" />
                            <h6 className='fw-bold'>AWS</h6>
                         </div>
                     </div>
-                    <div className="col-sm-4 col-6 mt-3">
+                    <div className="col-sm-4 col-6 mx-0 mt-3">
                     <div className='bg-f2f2f2 rounded p-3 d-flex flex-column h-126px justify-content-between align-items-center'>
                            <img src={sql} alt="sql" />
                            <h6 className='fw-bold'>SQL</h6>
                         </div>
                     </div>
-                    <div className="col-sm-4 col-6 mt-3">
+                    <div className="col-sm-4 col-6 mx-0 mt-3">
                           <div className='bg-f2f2f2 rounded p-3 d-flex flex-column h-126px justify-content-between align-items-center'>
                            <img src={devops} alt="devops" />
                            <h6 className='fw-bold'>Devops</h6>
@@ -121,7 +121,7 @@ export const Profile = () => {
                  </div>
                  <div className="col-md-4 mt-md-0 mt-4">
                         <div className='bg-black rounded p-3 d-flex flex-column justify-content-between h-100'>
-                            <div className='row'>
+                            <div className='row mx-2'>
                                <p className='text-white col-9'>Looking for a Developer</p>
                                <div className='col-3'>
                                 <a href="mailto:nasarainarun@gmail.com" target='_blank'> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
