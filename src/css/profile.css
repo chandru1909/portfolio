@@ -180,7 +180,7 @@ transition: all 1s;
     overflow-x: hidden;
     width: 100%;
   }
-  
+
 @media only screen and (max-width: 1100px) {
     .w-82{
         width: 90%;
@@ -215,6 +215,6 @@ transition: all 1s;
         width: 94%;
       }
       .w-fit-content{
-        width: 90;
+        width: 90%;
     }
   }
