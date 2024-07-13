@@ -44,9 +44,9 @@ export const Profile = () => {
                             <TypedText />
                             </h5>
                         <div className='mt-md-5 mt-4'>
-                            <button className='btn bg-black text-white talk'>Let's Talk <img className="ms-2 w-arrow" src={whitearrow} alt="whitearrow" />
+                            <a  href='#footer' className='btn bg-black text-white talk'>Let's Talk <img className="ms-2 w-arrow" src={whitearrow} alt="whitearrow" />
                             <img className="ms-2 d-none u-arrow" src={uparrow} alt="uparrow" />
-                            </button>
+                            </a>
                             <a href='#project' className='btn border-width ms-3 bg-ffead9 work'>My Work <img className="ms-2 u-arrow" src={uparrow} alt="uparrow" />
                             <img className="ms-2 d-none w-arrow" src={whitearrow} alt="whitearrow" />
                             </a>
@@ -72,7 +72,7 @@ export const Profile = () => {
             </div>
         </div>
         </section>
-        <section className="bg-white">
+        <section id='specialities' className="bg-white">
             <div className='container-xl px-xl-0 px-2'>
             <div className='position-relative mx-3 pt-4' >
                         <div className='yellow-round-small speciality d-md-block d-none rounded-circle'></div>
@@ -121,7 +121,7 @@ export const Profile = () => {
                  </div>
                  <div className="col-md-4 mt-md-0 mt-4">
                         <div className='bg-black rounded p-3 d-flex flex-column justify-content-between h-100'>
-                            <div className='row mx-2'>
+                            <div className='row'>
                                <p className='text-white col-9'>Looking for a Developer</p>
                                <div className='col-3'>
                                 <a href="mailto:nasarainarun@gmail.com" target='_blank'> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
@@ -136,7 +136,7 @@ export const Profile = () => {
               </div>      
             </div>
         </section>
-        <section className='bg-white'>
+        <section id='about' className='bg-white'>
             <div className="row mx-2 py-md-4 py-0 pb-4 align-items-center">
                 <div className="col-md-6">
                     <div className="position-relative">
@@ -181,7 +181,7 @@ export const Profile = () => {
                 </div>
              </div>
         </section>
-        <section className='bg-f2f2f2'>
+        <section id='resume' className='bg-f2f2f2'>
             <div className='container-xl px-xl-0 px-2'>
             <div className='position-relative mx-3 pt-4' >
                         <div className='d-flex align-items-center'>
@@ -331,7 +331,7 @@ export const Profile = () => {
             </div>
             </div>
         </section>
-        <section className='bg-ffead9 py-4'>
+        <section id='portfolio' className='bg-ffead9 py-4'>
                <div className='container-xl px-xl-0 px-2'>
             <h6 className='fw-bold text-center text-ffb647'>Portfolio</h6>
             <h4 className='fw-bold text-center'>Products I built for Exotel</h4>
@@ -369,7 +369,7 @@ export const Profile = () => {
             </div>
                </div>
         </section>
-        <section id='project' className='text-white py-4'>
+        <section id='project' className='text-white py-md-4'>
         <div className='container-xl px-xl-0 px-2'>
         <h6 className='fw-bold text-center text-ffb647'>Works</h6>
             <h4 className='fw-bold text-center text-black mb-4'>My Projects</h4>

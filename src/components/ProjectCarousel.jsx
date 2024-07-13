@@ -14,7 +14,7 @@ import uparrow from "../images/uparrow.png";
 const ProjectCarousel = () => {
   const [carouselOptions, setCarouselOptions] = useState({
     items: 1,
-    loop: false,
+    loop: true,
     margin: 10,
     nav: true,
     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],

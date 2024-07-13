@@ -14,13 +14,21 @@ header{
     border-bottom: 1px solid #725B38;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     color: black;
 }
 .navbar{
     cursor: pointer;
 }
-
+.dropdown-toggle::after{
+    display: none;
+}
+.curser{
+    cursor: pointer;
+}
+#staticBackdrop{
+    height: fit-content !important;
+}
 .slideright{
     opacity: 0;
     animation: slideRight 3s ease forwards;

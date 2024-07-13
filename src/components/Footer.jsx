@@ -14,10 +14,12 @@ export const Footer = () => {
                 <div className="col-md-4 col-lg-3 mt-md-0 mt-3">
                 <div className='position-relative mx-3' >
                 <div className='yellow-round-footer d-md-block d-none rounded-circle'></div>
-                        <h2 className='fw-900 text-white mt-4 mb-0 position-relative z-index-20'>Let’s Work</h2>
-                        <h2 className='fw-900 text-white mt-1 mb-0 position-relative z-index-20'>together</h2>
+                <div className='d-md-block d-flex align-items-center'>
+                <h2 className='fw-900 text-white mt-md-4 mt-0 mb-0 position-relative z-index-20'>Let’s Work</h2>
+                        <h2 className='fw-900 text-white mt-md-1 mt-0 ms-md-0 ms-2 mb-0 position-relative z-index-20'>together</h2>
                 </div>
-                <div className='mt-4'>
+                </div>
+                <div className='mt-4 ms-md-0 ms-3'>
                     <span className='text-white'>Follow on - </span>
                     <a className='ms-1' href="https://www.linkedin.com/in/arun-nasarain/" target='_blank'><img src={Wlinkedin} alt="linkedin" /></a>
                     <a className='ms-2' href="mailto:nasarainarun@gmail.com" target='_blank'><img src={Wmail} alt="mail" /></a>
