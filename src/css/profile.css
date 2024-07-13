@@ -136,6 +136,7 @@ transition: all 1s;
   }
   .h-126px:hover{
       background-color: #FFB647 !important;
+      transition: all 1s;
   }
   .speciality{
     left: -11px;

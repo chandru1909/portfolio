@@ -7,6 +7,7 @@ import mail from "../images/mail.png";
 import linkedin from "../images/linkedin.png";
 import male1 from "../images/male1.png";
 import user from "../images/user.jpg";
+import arun from "../images/arun.png";
 import male2 from "../images/male2.png";
 import name from "../images/arunnasarain.svg";
 import experience from "../images/experience.png";
@@ -54,7 +55,7 @@ export const Profile = () => {
                         <div className='mt-3'>
                             <span>Follow on - </span>
                             <a className='ms-1' href="https://www.linkedin.com/in/arun-nasarain/" target='_blank'><img src={linkedin} alt="linkedin" /></a>
-                            <a className='ms-2' href="mailto:nasarainarun@gmail.com" target='_blank'><img src={mail} alt="mail" /></a>
+                            <a className='ms-2' href="mailto:arunnasarain@gmail.com" ><img src={mail} alt="mail" /></a>
                         </div>
                     </div>
                      
@@ -124,7 +125,7 @@ export const Profile = () => {
                             <div className='row'>
                                <p className='text-white col-9'>Looking for a Developer</p>
                                <div className='col-3'>
-                                <a href="mailto:nasarainarun@gmail.com" target='_blank'> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
+                                <a href="mailto:arunnasarain@gmail.com"> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
                                </div>
                             </div>
                            <div>

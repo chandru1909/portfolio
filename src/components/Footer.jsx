@@ -22,7 +22,7 @@ export const Footer = () => {
                 <div className='mt-4 ms-md-0 ms-3'>
                     <span className='text-white'>Follow on - </span>
                     <a className='ms-1' href="https://www.linkedin.com/in/arun-nasarain/" target='_blank'><img src={Wlinkedin} alt="linkedin" /></a>
-                    <a className='ms-2' href="mailto:nasarainarun@gmail.com" target='_blank'><img src={Wmail} alt="mail" /></a>
+                    <a className='ms-2' href="mailto:arunnasarain@gmail.com" target='_blank'><img src={Wmail} alt="mail" /></a>
                 </div>
                 </div>
                 <div className="col-md-4 mt-md-0 mt-3">
@@ -30,7 +30,7 @@ export const Footer = () => {
                             <div className='row'>
                                <p className='text-white col-9'>Looking for a Developer</p>
                                <div className='col-3'>
-                                <a href="mailto:nasarainarun@gmail.com" target='_blank'> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
+                                <a href="mailto:arunnasarain@gmail.com"> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
                                </div>
                             </div>
                            <div>
@@ -43,7 +43,7 @@ export const Footer = () => {
                             <div className='row'>
                                <p className='text-white col-9'>Want a more in depth look at my history</p>
                                <div className='col-3'>
-                                <a href="tel:+12176224761" target='_blank'> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
+                                <a href="tel:+12176224761"> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
                                </div>
                             </div>
                            <div>
