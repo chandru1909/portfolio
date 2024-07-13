@@ -1,0 +1,9 @@
+.yellow-round-footer{
+    width: 58px;
+    height: 58px;
+    background-color: #FFB647;
+    position: absolute;
+    z-index: 10;
+    left: -22px;
+    top: -10px;
+}
