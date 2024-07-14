@@ -7,7 +7,7 @@ import mail from "../images/mail.png";
 import linkedin from "../images/linkedin.png";
 import male1 from "../images/male1.png";
 import user from "../images/user.jpg";
-import arun from "../images/arun.png";
+import arun from "../images/arunimg.png";
 import experienceimg from "../images/experienceimg.png";
 import name from "../images/arunnasarain.svg";
 import experience from "../images/experience.png";
