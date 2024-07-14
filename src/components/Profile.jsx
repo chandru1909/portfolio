@@ -32,9 +32,9 @@ export const Profile = () => {
         <section className='bg-ffead9'>
         <div className='container-xl px-xl-0 px-4 '>
             <div className="row align-items-center">
-                <div className="col-md-5 order-md-1 order-2 py-4">
+                <div className="col-md-5 order-md-1 order-2 py-4 pt-0">
                     <div className='position-relative w-fit-content m-auto slideright'>
-                        <div className='d-flex align-items-center ms-2 mt-md-0 mt-4'>
+                        <div className='d-flex align-items-center ms-2 mt-md-0 mt-md-4 mt-2'>
                             <img src={line} alt="line" className='w-45px h-1px' />
                             <span className='fw-bold ms-2'>Hello,I'm</span>
                         </div>
