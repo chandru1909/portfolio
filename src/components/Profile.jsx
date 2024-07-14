@@ -1,5 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
 import line from "../images/line.png";
 import whitearrow from "../images/white-arrow.png";
 import uparrow from "../images/uparrow.png";
@@ -52,8 +54,8 @@ export const Profile = () => {
                         </div>
                         <div className='mt-3'>
                             <span>Follow on - </span>
-                            <a className='ms-1' href="https://www.linkedin.com/in/arun-nasarain/" target='_blank'><img src={linkedin} alt="linkedin" /></a>
-                            <a className='ms-2' href="mailto:arunnasarain@gmail.com" ><img src={mail} alt="mail" /></a>
+                            <a className='ms-1' href="https://www.linkedin.com/in/arun-nasarain/" target='_blank'><img src={linkedin} className='w-22px' alt="linkedin" /></a>
+                            <a className='ms-2' href="mailto:arunnasarain@gmail.com" ><img src={mail} className='w-25px' alt="mail" /></a>
                         </div>
                     </div>
                      
@@ -329,8 +331,13 @@ export const Profile = () => {
                     <div className="col-md-4 text-black">
                         <h1 className='fw-bold mb-4'>Contact Me</h1>  
                         <h5 className='pt-2'><a href="arunnasarain@gmail.com" className='text-black align-text'><img src={mail} className='me-2 align-text' alt="mail" />arunnasarain@gmail.com</a></h5> 
-                        <h5 className='pt-2'><a className='text-black align-text' href="https://calendly.com/arunnasarain/30min"><img src={phone} className='me-2 align-text' alt="phone" />+12176224761</a></h5>
-                        <h5 className='pt-2 pb-3'><a className='text-black align-text' href="https://www.linkedin.com/in/arun-nasarain/"><img src={linkedin} className='me-2 align-text' alt="linkedin" />LinkedIn</a></h5>
+                        <div className='pt-2 d-flex'>
+                            <div className='bg-black w-25px d-flex justify-content-center align-items-center roundeddiv'>
+                            <FontAwesomeIcon icon={faPhone} className=' text-ffead9'/>
+                            </div>
+                            <h5 className='ms-2'><a className='text-black align-text' href="https://calendly.com/arunnasarain/30min">+12176224761</a></h5>
+                        </div>
+                        <h5 className='pt-2 pb-3'><a className='text-black align-text' href="https://www.linkedin.com/in/arun-nasarain/"><img src={linkedin} className='me-2 w-25px align-text' alt="linkedin" />LinkedIn</a></h5>
                         <a href={ArunNasarain} target='_blank' className='btn mt-2 bg-ffead9 work border-width'>Download Resume <img className="ms-2 w-arrow d-none" src={whitearrow} alt="whitearrow" />
                                 <img className="ms-2 u-arrow" src={uparrow} alt="uparrow" />
                             </a>
@@ -343,7 +350,7 @@ export const Profile = () => {
                         <input type="email" class="form-control py-2" id="mail" placeholder="Your Email" />
                         </div>
                         <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        <textarea class="form-control" id="comment" placeholder='Your Message' rows="6"></textarea>
                         </div>
                         <button className='btn border-width bg-ffead9 work submit' type='submit'>Submit</button>
                     </div>
