@@ -13,7 +13,7 @@ export const Header = () => {
            <div className="col-8 p-0">
             <div className="d-flex align-items-center justify-content-end">
               <div className='slideright'>
-              <a href="https://calendly.com/arunnasarain/30min" className="text-black text-decoration-none"><span className="fw-bold">Let’s talk</span>
+              <a href="https://calendly.com/arunnasarain/30min" target='_blank' className="text-black text-decoration-none"><span className="fw-bold">Let’s talk</span>
               <img className="ms-2" src={uparrow} alt="uparrow" /></a>
               </div>
               <div className="bg-black h-60px w-80px ms-4 d-flex align-items-center justify-content-center navbar" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">

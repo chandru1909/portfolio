@@ -45,7 +45,7 @@ export const Profile = () => {
                             <TypedText />
                             </h5>
                         <div className='mt-md-5 mt-4'>
-                            <a  href='https://calendly.com/arunnasarain/30min' className='btn bg-black text-white talk'>Let's Talk <img className="ms-2 w-arrow" src={whitearrow} alt="whitearrow" />
+                            <a  href='https://calendly.com/arunnasarain/30min' target='_blank' className='btn bg-black text-white talk'>Let's Talk <img className="ms-2 w-arrow" src={whitearrow} alt="whitearrow" />
                             <img className="ms-2 d-none u-arrow" src={uparrow} alt="uparrow" />
                             </a>
                             <a href='#project' className='btn border-width ms-3 bg-ffead9 work'>My Work <img className="ms-2 u-arrow" src={uparrow} alt="uparrow" />
@@ -330,12 +330,12 @@ export const Profile = () => {
                 <div className="row mx-2">
                     <div className="col-md-4 text-black">
                         <h1 className='fw-bold mb-4'>Contact Me</h1>  
-                        <h5 className='pt-2'><a href="arunnasarain@gmail.com" className='text-black align-text'><img src={mail} className='me-2 w-25px align-text' alt="mail" />arunnasarain@gmail.com</a></h5> 
+                        <h5 className='pt-2'><a href="mailto:arunnasarain@gmail.com" className='text-black align-text'><img src={mail} className='me-2 w-25px align-text' alt="mail" />arunnasarain@gmail.com</a></h5> 
                         <div className='pt-2 d-flex'>
                             <div className='bg-black w-25px d-flex justify-content-center align-items-center roundeddiv'>
                             <FontAwesomeIcon icon={faPhone} className=' text-ffead9'/>
                             </div>
-                            <h5 className='ms-2'><a className='text-black align-text' href="https://calendly.com/arunnasarain/30min">+12176224761</a></h5>
+                            <h5 className='ms-2'><a className='text-black align-text' href="https://calendly.com/arunnasarain/30min" target='_blank'>+12176224761</a></h5>
                         </div>
                         <h5 className='pt-2 pb-3'><a className='text-black align-text' href="https://www.linkedin.com/in/arun-nasarain/"><img src={linkedin} className='me-2 w-25px align-text' alt="linkedin" />LinkedIn</a></h5>
                         <a href={ArunNasarain} target='_blank' className='btn mt-2 bg-ffead9 work border-width'>Download Resume <img className="ms-2 w-arrow d-none" src={whitearrow} alt="whitearrow" />
