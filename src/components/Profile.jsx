@@ -324,8 +324,8 @@ export const Profile = () => {
         </div>
         </section>
         <section id='contact' className='bg-ffead9 py-4'>
-            <div className='container-xl px-xl-0 px-2'>
-                <div className="row">
+            <div className='container-xl px-xl-0 px-4'>
+                <div className="row mx-2">
                     <div className="col-md-4 text-black">
                         <h1 className='fw-bold mb-4'>Contact Me</h1>  
                         <h5 className='pt-2'><a href="arunnasarain@gmail.com" className='text-black align-text'><img src={mail} className='me-2 align-text' alt="mail" />arunnasarain@gmail.com</a></h5> 
@@ -335,7 +335,7 @@ export const Profile = () => {
                                 <img className="ms-2 u-arrow" src={uparrow} alt="uparrow" />
                             </a>
                     </div>
-                    <div className="col-md-8 mt-md-0 mt-3">
+                    <div className="col-md-8 mt-md-0 mt-4 px-md-3 px-1">
                         <div class="mb-3">
                             <input type="text" class="form-control py-2" id="name" placeholder="Your Name" />
                         </div>
@@ -345,7 +345,7 @@ export const Profile = () => {
                         <div class="mb-3">
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                         </div>
-                        <button className='btn border-width ms-3 bg-ffead9 work submit' type='submit'>Submit</button>
+                        <button className='btn border-width bg-ffead9 work submit' type='submit'>Submit</button>
                     </div>
                 </div>
             </div>
