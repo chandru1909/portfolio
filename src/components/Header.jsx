@@ -13,22 +13,9 @@ export const Header = () => {
            <div className="col-8 p-0">
             <div className="d-flex align-items-center justify-content-end">
               <div className='slideright'>
-              <a href="tel:+12176224761" className="text-black text-decoration-none"><span className="fw-bold">Let’s talk</span>
+              <a href="https://calendly.com/arunnasarain/30min" className="text-black text-decoration-none"><span className="fw-bold">Let’s talk</span>
               <img className="ms-2" src={uparrow} alt="uparrow" /></a>
               </div>
-              {/* <div class="dropdown">
-              <div class=" " type="button" >
-              <div className="bg-black dropdown-toggle h-60px w-80px ms-4 d-flex align-items-center justify-content-center navbar" data-bs-toggle="dropdown" aria-expanded="false">
-              <FontAwesomeIcon icon={faBars} color="white" />
-              </div>
-              </div>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item active" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-              </ul>
-            </div> */}
               <div className="bg-black h-60px w-80px ms-4 d-flex align-items-center justify-content-center navbar" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
               <FontAwesomeIcon icon={faBars} color="white" />
               </div>
@@ -45,6 +32,7 @@ export const Header = () => {
                     <a href="#resume" className='text-white'><h5 className='fw-bold pb-3 border-bottom'>Resume</h5></a>
                     <a href="#portfolio" className='text-white'><h5 className='fw-bold pb-3 border-bottom'>Portfolio</h5></a>
                     <a href="#project" className='text-white'><h5 className='fw-bold pb-3 border-bottom'>Works</h5></a>
+                    <a href="#contact" className='text-white'><h5 className='fw-bold pb-3 border-bottom'>Contact</h5></a>
                   </div>
                 </div>
               </div>

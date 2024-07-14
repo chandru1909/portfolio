@@ -9,7 +9,7 @@ export const Footer = () => {
     <>
     <footer className=" bg-black" id='footer'>
         <div className='container-xl px-xl-0 px-'>
-            <div className='border-bottom'>
+            {/* <div className='border-bottom'>
             <div className="row py-4 align-items-center">
                 <div className="col-md-4 col-lg-3 mt-md-0 mt-3">
                 <div className='position-relative mx-3' >
@@ -52,7 +52,7 @@ export const Footer = () => {
                         </div>
                 </div>
             </div>
-            </div>
+            </div> */}
             <div className='d-flex  justify-content-between py-4'>
                 <h6 className='text-white'>Copyright © Arun Nasarain.</h6>
                  <a href="#header" className='text-white text-decoration-none'>Back to top <img className='y-arrow' src={toparrow} alt="toparrow" /></a>

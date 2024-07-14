@@ -5,12 +5,10 @@ import whitearrow from "../images/white-arrow.png";
 import uparrow from "../images/uparrow.png";
 import mail from "../images/mail.png";
 import linkedin from "../images/linkedin.png";
-import male1 from "../images/male1.png";
-import user from "../images/user.jpg";
+import phone from "../images/phone.png";
 import arun from "../images/arunimg.png";
 import experienceimg from "../images/experienceimg.png";
 import name from "../images/arunnasarain.svg";
-import experience from "../images/experience.png";
 import ArunNasarain from "../images/ArunNasarain.pdf";
 import golang from "../images/golang.png";
 import dj from "../images/dj.png";
@@ -45,7 +43,7 @@ export const Profile = () => {
                             <TypedText />
                             </h5>
                         <div className='mt-md-5 mt-4'>
-                            <a  href='#footer' className='btn bg-black text-white talk'>Let's Talk <img className="ms-2 w-arrow" src={whitearrow} alt="whitearrow" />
+                            <a  href='https://calendly.com/arunnasarain/30min' className='btn bg-black text-white talk'>Let's Talk <img className="ms-2 w-arrow" src={whitearrow} alt="whitearrow" />
                             <img className="ms-2 d-none u-arrow" src={uparrow} alt="uparrow" />
                             </a>
                             <a href='#project' className='btn border-width ms-3 bg-ffead9 work'>My Work <img className="ms-2 u-arrow" src={uparrow} alt="uparrow" />
@@ -141,22 +139,7 @@ export const Profile = () => {
             <div className="row mx-2 py-md-4 py-0 pb-4 align-items-center">
                 <div className="col-md-6">
                     <div className="position-relative">
-                        {/* <div className="position-absolute">
-                            <img src={bgimg} alt="bgimg" className=' d-block' />
-                        </div>
-                            <div className="position-absolute">
-                            <img src={profile} alt="profile" className=' h-500px d-block' />
-                        </div>
-                         <div className="position-absolute">
-                            <img src={threeyear} alt="experience" className=' d-block' />
-                        </div> */}
                         <img className='position-relative w-82 m-auto  h-500px d-block' src={experienceimg} alt="experience" />
-                        {/* <div className='position-absolute experience'>
-                            <div className='yellow-round-small d-md-block d-none rounded-circle'></div>
-                             <h2 className='fw-bold'>2+</h2>
-                             <h2 className='fw-bold'>Years of</h2>
-                             <h2 className='fw-bold'>experience</h2>
-                        </div> */}
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -226,44 +209,7 @@ export const Profile = () => {
                         <div className="tab-pane fade me-md-auto mt-md-0 mt-4 show active" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab" tabIndex="0">
                             <h4 className='text-black fw-bold'>Software Engineer</h4>
                             <p className='mt-2'>As a software engineer with a MS in computer science, I am passionate  about building scalable and reliable backend services using Golang,  JavaScript, Python, and AWS. I have three years of experience in  developing and deploying RESTful APIs, integrations, and microservices  for various domains and platforms.</p>
-                            {/* <div className="row mt-4">
-                                <div className="col-lg-3 col-3 col-sm-4">
-                                  <span>Name</span> 
-                                </div>
-                                <div className="col-lg-9 col-9 col-sm-8">
-                                   <h6 className='text-black ms-sm-0 ms-2'>: Arun Nasarain</h6>
-                                </div>
-                                <div className="col-lg-3 col-3 col-sm-4">
-                                  <span>Nationality</span> 
-                                </div>
-                                <div className="col-lg-9 col-9 col-sm-8">
-                                   <h6 className='text-black ms-sm-0 ms-2'>: Indian</h6>
-                                </div>
-                                <div className="col-lg-3 col-3 col-sm-4">
-                                  <span>Phone</span> 
-                                </div>
-                                <div className="col-lg-9 col-9 col-sm-8">
-                                   <h6 className='text-black ms-sm-0 ms-2'>: (217) 622-4761</h6>
-                                </div>
-                                <div className="col-lg-3 col-3 col-sm-4">
-                                  <span>Email</span> 
-                                </div>
-                                <div className="col-lg-9 col-9 col-sm-8">
-                                   <h6 className='text-black ms-sm-0 ms-2'>: arunnasarain@gmail.com</h6>
-                                </div>
-                                <div className="col-lg-3 col-3 col-sm-4">
-                                  <span>Experiences</span> 
-                                </div>
-                                <div className="col-lg-9 col-9 col-sm-8">
-                                   <h6 className='text-black ms-sm-0 ms-2'>: +3 Year</h6>
-                                </div>
-                                <div className="col-lg-3 col-3 col-sm-4">
-                                  <span>Language</span> 
-                                </div>
-                                <div className="col-lg-9 col-9 col-sm-8">
-                                   <h6 className='text-black ms-sm-0 ms-2'>: English</h6>
-                                </div>
-                            </div> */}
+                      
                         </div>
                         <div className="tab-pane fade mt-md-0 mt-4" id="v-pills-experience" role="tabpanel" aria-labelledby="v-pills-experience-tab" tabIndex="0">
                             <h4 className='text-black fw-bold'>Software Engineer</h4>
@@ -376,6 +322,33 @@ export const Profile = () => {
             <h4 className='fw-bold text-center text-black mb-4'>My Projects</h4>
         <ProjectCarousel />
         </div>
+        </section>
+        <section id='contact' className='bg-ffead9 py-4'>
+            <div className='container-xl px-xl-0 px-2'>
+                <div className="row">
+                    <div className="col-md-4 text-black">
+                        <h1 className='fw-bold mb-4'>Contact Me</h1>  
+                        <h5 className='pt-2'><a href="arunnasarain@gmail.com" className='text-black align-text'><img src={mail} className='me-2 align-text' alt="mail" />arunnasarain@gmail.com</a></h5> 
+                        <h5 className='pt-2'><a className='text-black align-text' href="https://calendly.com/arunnasarain/30min"><img src={phone} className='me-2 align-text' alt="phone" />+12176224761</a></h5>
+                        <h5 className='pt-2 pb-3'><a className='text-black align-text' href="https://www.linkedin.com/in/arun-nasarain/"><img src={linkedin} className='me-2 align-text' alt="linkedin" />LinkedIn</a></h5>
+                        <a href={ArunNasarain} target='_blank' className='btn mt-2 bg-ffead9 work border-width'>Download Resume <img className="ms-2 w-arrow d-none" src={whitearrow} alt="whitearrow" />
+                                <img className="ms-2 u-arrow" src={uparrow} alt="uparrow" />
+                            </a>
+                    </div>
+                    <div className="col-md-8 mt-md-0 mt-3">
+                        <div class="mb-3">
+                            <input type="text" class="form-control py-2" id="name" placeholder="Your Name" />
+                        </div>
+                        <div className="mb-3">
+                        <input type="email" class="form-control py-2" id="mail" placeholder="Your Email" />
+                        </div>
+                        <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        </div>
+                        <button className='btn border-width ms-3 bg-ffead9 work submit' type='submit'>Submit</button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     </>
