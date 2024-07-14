@@ -7,7 +7,7 @@ import mail from "../images/mail.png";
 import linkedin from "../images/linkedin.png";
 import male1 from "../images/male1.png";
 import user from "../images/user.jpg";
-import male2 from "../images/male2.png";
+import arun from "../images/arun.png";
 import experienceimg from "../images/experienceimg.png";
 import name from "../images/arunnasarain.svg";
 import experience from "../images/experience.png";
@@ -62,8 +62,8 @@ export const Profile = () => {
                 </div>
                 <div className="col-md-7 mt-md-0 mt-3 order-md-2 order-1 py-4">
                     <div className="d-flex justify-content-between">
-                        <div className='bg-yellow w-fit-content m-auto h-500px alignment-img rounded-4 slideleft'>
-                            <img className='ms-auto w-100 h-500px rounded-4 p-2  d-block' src={user} alt="male1" />
+                        <div className='w-fit-content m-auto slideleft'>
+                            <img className='ms-auto w-100 h-500px rounded-4 p-2  d-block' src={arun} alt="male1" />
                         </div>
                         <div>
                             <img className='h-500px d-block slidebottom' src={name} alt="name" />
@@ -150,7 +150,7 @@ export const Profile = () => {
                          <div className="position-absolute">
                             <img src={threeyear} alt="experience" className=' d-block' />
                         </div> */}
-                        <img className='position-relative w-82  h-500px d-block' src={experienceimg} alt="experience" />
+                        <img className='position-relative w-82 m-auto  h-500px d-block' src={experienceimg} alt="experience" />
                         {/* <div className='position-absolute experience'>
                             <div className='yellow-round-small d-md-block d-none rounded-circle'></div>
                              <h2 className='fw-bold'>2+</h2>
