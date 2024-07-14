@@ -330,7 +330,7 @@ export const Profile = () => {
                 <div className="row mx-2">
                     <div className="col-md-4 text-black">
                         <h1 className='fw-bold mb-4'>Contact Me</h1>  
-                        <h5 className='pt-2'><a href="arunnasarain@gmail.com" className='text-black align-text'><img src={mail} className='me-2 align-text' alt="mail" />arunnasarain@gmail.com</a></h5> 
+                        <h5 className='pt-2'><a href="arunnasarain@gmail.com" className='text-black align-text'><img src={mail} className='me-2 w-25px align-text' alt="mail" />arunnasarain@gmail.com</a></h5> 
                         <div className='pt-2 d-flex'>
                             <div className='bg-black w-25px d-flex justify-content-center align-items-center roundeddiv'>
                             <FontAwesomeIcon icon={faPhone} className=' text-ffead9'/>
