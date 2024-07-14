@@ -218,4 +218,7 @@ transition: all 1s;
       .w-fit-content{
         width: 90%;
     }
+    .alignment-img{
+      width: fit-content !important;
+    }
   }
