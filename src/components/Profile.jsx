@@ -273,7 +273,7 @@ export const Profile = () => {
                         <div class="row py-4 mx-2">
                             <div class="col-md-6 pe-0">
                                 <div id="simple-list-example" class="d-flex sm-w-100 flex-column gap-2 simple-list-example-scrollspy text-center">
-                                    <a href='#simple-list-item-1' className=" d-flex rounded text-black justify-content-between active p-2" >
+                                    <a href='#simple-list-item-1' className=" d-flex rounded text-black justify-content-between p-2" >
                                         <span>Experience</span><div><img className="ms-auto u-arrow" src={uparrow} alt="uparrow" />
                                             <img className="ms-auto w-arrow d-none" src={whitearrow} alt="whitearrow" />
                                         </div>
