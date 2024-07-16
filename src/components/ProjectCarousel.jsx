@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import $ from 'jquery'; 
 
 import travel from "../images/travel.png";
 import face from "../images/face.png";
@@ -21,7 +22,7 @@ const ProjectCarousel = () => {
     autoplay: true,
     autoplayTimeout: 7000,
     autoplayHoverPause: true,
-    slideTransition:'linear',
+    slidetransition:'linear',
     smartSpeed:800,
     lazyLoad:true,
     responsive: {

@@ -13,6 +13,9 @@ header{
 .w-80px{
     width: 80px;
 }
+.w-80px:hover .offcanvas{
+  visibility: visible !important;
+}
 .border-black-bottom{
     border-bottom: 1px solid #725B38;
 }
@@ -52,6 +55,9 @@ a{
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
+}
+.me-1-c{
+    margin-right: 1px;
 }
 
 /* animations */

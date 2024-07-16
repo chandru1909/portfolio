@@ -22,6 +22,8 @@ const TypedText = () => {
   }, []);
 
   return <span className="typed" ref={typedElement}></span>;
+
+  
 };
 
 export default TypedText;

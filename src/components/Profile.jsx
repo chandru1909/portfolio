@@ -7,6 +7,7 @@ import whitearrow from "../images/white-arrow.png";
 import uparrow from "../images/uparrow.png";
 import mail from "../images/mail.png";
 import linkedin from "../images/linkedin.png";
+import li from "../images/li.svg";
 import phone from "../images/phone.png";
 import arun from "../images/arunimg.png";
 import experienceimg from "../images/experienceimg.png";
@@ -33,8 +34,8 @@ export const Profile = () => {
         <div className='container-xl px-xl-0 px-4 '>
             <div className="row align-items-center">
                 <div className="col-md-5 order-md-1 order-2 py-4 pt-0">
-                    <div className='position-relative w-fit-content m-auto slideright'>
-                        <div className='d-flex align-items-center ms-2 mt-md-0 mt-md-4 mt-2'>
+                    <div className='position-relative text-md-start text-center w-fit-content m-auto slideright'>
+                        <div className='d-flex align-items-center justify-content-center justify-content-md-start ms-2 mt-md-0 mt-md-4 mt-2'>
                             <img src={line} alt="line" className='w-45px h-1px' />
                             <span className='fw-bold ms-2'>Hello,I'm</span>
                         </div>
@@ -42,7 +43,6 @@ export const Profile = () => {
                         <h1 className='fw-900 display-1 mb-0 position-relative z-index-20'>Arun</h1>
                         <h1 className='fw-900 display-1'>Nasarain</h1>
                         <h5 className='text-4d4d4d fw-bold'>
-                            <TypedText />
                             </h5>
                         <div className='mt-md-5 mt-4'>
                             <a  href='https://calendly.com/arunnasarain/30min' target='_blank' className='btn bg-black text-white talk'>Let's Talk <img className="ms-2 w-arrow" src={whitearrow} alt="whitearrow" />
@@ -54,18 +54,18 @@ export const Profile = () => {
                         </div>
                         <div className='mt-3'>
                             <span>Follow on - </span>
-                            <a className='ms-1' href="https://www.linkedin.com/in/arun-nasarain/" target='_blank'><img src={linkedin} className='w-22px' alt="linkedin" /></a>
+                            <a className='ms-1' href="https://www.linkedin.com/in/arun-nasarain/" target='_blank'><img src={li} className='w-22px' alt="linkedin" /></a>
                             <a className='ms-2' href="mailto:arunnasarain@gmail.com" ><img src={mail} className='w-25px' alt="mail" /></a>
                         </div>
                     </div>
                      
                 </div>
-                <div className="col-md-7 mt-md-0 mt-3 order-md-2 order-1 py-4">
+                <div className="col-md-7 order-md-2 order-1 py-4">
                     <div className="d-flex justify-content-between">
                         <div className='w-fit-content m-auto slideleft'>
                             <img className='ms-auto w-100 h-500px rounded-4 p-2  d-block' src={arun} alt="male1" />
                         </div>
-                        <div>
+                        <div className='d-sm-block d-none'>
                             <img className='h-500px d-block slidebottom' src={name} alt="name" />
                         </div>
                     </div>
@@ -121,18 +121,18 @@ export const Profile = () => {
                  </div>
                  </div>
                  <div className="col-md-4 mt-md-0 mt-4">
-                        <div className='bg-black rounded p-3 d-flex flex-column justify-content-between h-100'>
+                        <a href='mailto:arunnasarain@gmail.com' className='bg-black rounded p-3 d-flex flex-column justify-content-between h-100'>
                             <div className='row'>
                                <p className='text-white col-9'>Looking for a Developer</p>
                                <div className='col-3'>
-                                <a href="mailto:arunnasarain@gmail.com"> <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" /></a>
+                               <img className='ms-auto d-block y-arrow' src={yellowarrow} alt="yellowarrow" />
                                </div>
                             </div>
                            <div>
                             <span className='text-ffb647'>Hey Hello</span>
                             <h5 className='mt-2 fw-bold font text-white'>arunnasarain@gmail.com</h5>
                            </div>
-                        </div>
+                        </a>
                  </div>
               </div>      
             </div>
@@ -153,7 +153,6 @@ export const Profile = () => {
                         <h3 className='fw-900 display-3 mt-4 mb-0 position-relative z-index-20'>Arun</h3>
                         <h3 className='fw-900 display-3'>Nasarain</h3>
                         <h5 className='text-black fw-bold'>
-                            <TypedText />
                             </h5>
                         <div className='mt-3'>
                             <p>As a software engineer with a MS in computer science, I am passionate  about building scalable and reliable backend services using Golang,  JavaScript, Python, and AWS. I have three years of experience in  developing and deploying RESTful APIs, integrations, and microservices  for various domains and platforms.</p>
@@ -178,14 +177,9 @@ export const Profile = () => {
                         <h5 className='fw-900 display-6 mt-3 mb-0 position-relative z-index-20'>find here</h5>
                     </div>
                 <div className="row py-4 mx-2">
-                    <div className="nav col-md-6 flex-column gap-3 nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <div className="nav col-md-6 flex-column gap-3 nav-pills pe-0" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <div className="sm-w-100">
-                        <button className="nav-link d-flex justify-content-between py-2 active" id="v-pills-about-tab" data-bs-toggle="pill" data-bs-target="#v-pills-about" type="button" role="tab" aria-controls="v-pills-about" aria-selected="true">
-                        <span>About me</span><div><img className="ms-auto u-arrow" src={uparrow} alt="uparrow" />
-                        <img className="ms-auto w-arrow d-none" src={whitearrow} alt="whitearrow" />
-                        </div>
-                        </button>
-                        <button className="nav-link d-flex justify-content-between py-2" id="v-pills-experience-tab" data-bs-toggle="pill" data-bs-target="#v-pills-experience" type="button" role="tab" aria-controls="v-pills-experience" aria-selected="false">
+                        <button className="nav-link d-flex justify-content-between py-2 active" id="v-pills-experience-tab" data-bs-toggle="pill" data-bs-target="#v-pills-experience" type="button" role="tab" aria-controls="v-pills-experience" aria-selected="false">
                          <span>Experience</span><div><img className="ms-auto u-arrow" src={uparrow} alt="uparrow" />
                          <img className="ms-auto w-arrow d-none" src={whitearrow} alt="whitearrow" />
                          </div>
@@ -208,12 +202,7 @@ export const Profile = () => {
                         </div>
                     </div>
                     <div className="tab-content col-md-6 mt-md-0 mt-3" id="v-pills-tabContent">
-                        <div className="tab-pane fade me-md-auto mt-md-0 mt-4 show active" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab" tabIndex="0">
-                            <h4 className='text-black fw-bold'>Software Engineer</h4>
-                            <p className='mt-2'>As a software engineer with a MS in computer science, I am passionate  about building scalable and reliable backend services using Golang,  JavaScript, Python, and AWS. I have three years of experience in  developing and deploying RESTful APIs, integrations, and microservices  for various domains and platforms.</p>
-                      
-                        </div>
-                        <div className="tab-pane fade mt-md-0 mt-4" id="v-pills-experience" role="tabpanel" aria-labelledby="v-pills-experience-tab" tabIndex="0">
+                        <div className="tab-pane fade mt-md-0 mt-4 show active" id="v-pills-experience" role="tabpanel" aria-labelledby="v-pills-experience-tab" tabIndex="0">
                             <h4 className='text-black fw-bold'>Software Engineer</h4>
                             <ul className='mt-3'>
                                 <li>
@@ -318,10 +307,10 @@ export const Profile = () => {
             </div>
                </div>
         </section>
-        <section id='project' className='text-white py-md-4 pt-4'>
+        <section id='project' className='bg-black py-md-4 pt-4'>
         <div className='container-xl px-xl-0 px-2'>
         <h6 className='fw-bold text-center text-ffb647'>Works</h6>
-            <h4 className='fw-bold text-center text-black mb-4'>My Projects</h4>
+            <h4 className='fw-bold text-center text-white mb-4'>My Projects</h4>
         <ProjectCarousel />
         </div>
         </section>
@@ -337,20 +326,20 @@ export const Profile = () => {
                             </div>
                             <h5 className='ms-2'><a className='text-black align-text' href="https://calendly.com/arunnasarain/30min" target='_blank'>+12176224761</a></h5>
                         </div>
-                        <h5 className='pt-2 pb-3'><a className='text-black align-text' href="https://www.linkedin.com/in/arun-nasarain/"><img src={linkedin} className='me-2 w-25px align-text' alt="linkedin" />LinkedIn</a></h5>
+                        <h5 className='pt-2 pb-3'><a className='text-black align-text' href="https://www.linkedin.com/in/arun-nasarain/"><img src={li} className='me-2 w-25px align-text' alt="linkedin" />LinkedIn</a></h5>
                         <a href={ArunNasarain} target='_blank' className='btn mt-2 bg-ffead9 work border-width'>Download Resume <img className="ms-2 w-arrow d-none" src={whitearrow} alt="whitearrow" />
                                 <img className="ms-2 u-arrow" src={uparrow} alt="uparrow" />
                             </a>
                     </div>
                     <div className="col-md-8 mt-md-0 mt-4 px-md-3 px-1">
-                        <div class="mb-3">
-                            <input type="text" class="form-control py-2" id="name" placeholder="Your Name" />
+                        <div className="mb-3">
+                            <input type="text" className="form-control py-2" id="name" placeholder="Your Name" />
                         </div>
                         <div className="mb-3">
-                        <input type="email" class="form-control py-2" id="mail" placeholder="Your Email" />
+                        <input type="email" className="form-control py-2" id="mail" placeholder="Your Email" />
                         </div>
-                        <div class="mb-3">
-                        <textarea class="form-control" id="comment" placeholder='Your Message' rows="6"></textarea>
+                        <div className="mb-3">
+                        <textarea className="form-control" id="comment" placeholder='Your Message' rows="6"></textarea>
                         </div>
                         <button className='btn border-width bg-ffead9 work submit' type='submit'>Submit</button>
                     </div>
