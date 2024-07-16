@@ -26,7 +26,7 @@ import hubspot from "../images/hubspot.png";
 import TypedText from './TypedText';
 import ProjectCarousel from './ProjectCarousel';
 
-export const Profile = () => {
+export const Profile = () => { 
     return (
         <>
             <main className=''>
