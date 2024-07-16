@@ -44,19 +44,19 @@ export const Header = () => {
                 <FontAwesomeIcon icon={faBars} color="white" />
               </div>
               <div className="offcanvas offcanvas-end" tabIndex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                <div className="offcanvas-header bg-black">
+                <div className="offcanvas-header bg-black pb-0">
                   <div data-bs-dismiss="offcanvas" className='curser' aria-label="Close">
                     <FontAwesomeIcon icon={faTimes} color='white' className='fs-3'/>
                   </div>
                 </div>
                 <div className="offcanvas-body bg-black">
-                  <div className='text-center d-flex align-items-center flex-column'>
-                    <a href="#about" className='text-white w-100'><h5 className='fw-bold pb-3 border-bottom'>About me</h5></a>
-                    <a href="#specialities" className='text-white w-100'><h5 className='fw-bold pb-3 border-bottom'>Specialties</h5></a>
-                    <a href="#resume" className='text-white w-100'><h5 className='fw-bold pb-3 border-bottom'>Resume</h5></a>
-                    <a href="#portfolio" className='text-white w-100'><h5 className='fw-bold pb-3 border-bottom'>Portfolio</h5></a>
-                    <a href="#project" className='text-white w-100'><h5 className='fw-bold pb-3 border-bottom'>Works</h5></a>
-                    <a href="#contact" className='text-white w-100'><h5 className='fw-bold pb-3 border-bottom'>Contact</h5></a>
+                  <div className='text-center d-flex align-items-center justify-content-center flex-column'>
+                    <a href="#about" className='text-white w-100'><h5 className='fw-bold mb-0 py-3 border-bottom'>About me</h5></a>
+                    <a href="#specialities" className='text-white w-100'><h5 className='fw-bold py-3 mb-0 border-bottom'>Specialties</h5></a>
+                    <a href="#resume" className='text-white w-100'><h5 className='fw-bold mb-0 py-3 border-bottom'>Resume</h5></a>
+                    <a href="#portfolio" className='text-white w-100'><h5 className='fw-bold mb-0 py-3 border-bottom'>Portfolio</h5></a>
+                    <a href="#project" className='text-white w-100'><h5 className='fw-bold mb-0 py-3 border-bottom'>Works</h5></a>
+                    <a href="#contact" className='text-white w-100'><h5 className='fw-bold mb-0 py-3'>Contact</h5></a>
                   </div>
                 </div>
               </div>

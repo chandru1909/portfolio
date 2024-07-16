@@ -43,6 +43,7 @@ export const Profile = () => {
                         <h1 className='fw-900 display-1 mb-0 position-relative z-index-20'>Arun</h1>
                         <h1 className='fw-900 display-1'>Nasarain</h1>
                         <h5 className='text-4d4d4d fw-bold'>
+                            Software Developer
                             </h5>
                         <div className='mt-md-5 mt-4'>
                             <a  href='https://calendly.com/arunnasarain/30min' target='_blank' className='btn bg-black text-white talk'>Let's Talk <img className="ms-2 w-arrow" src={whitearrow} alt="whitearrow" />
@@ -153,6 +154,7 @@ export const Profile = () => {
                         <h3 className='fw-900 display-3 mt-4 mb-0 position-relative z-index-20'>Arun</h3>
                         <h3 className='fw-900 display-3'>Nasarain</h3>
                         <h5 className='text-black fw-bold'>
+                        Software Developer
                             </h5>
                         <div className='mt-3'>
                             <p>As a software engineer with a MS in computer science, I am passionate  about building scalable and reliable backend services using Golang,  JavaScript, Python, and AWS. I have three years of experience in  developing and deploying RESTful APIs, integrations, and microservices  for various domains and platforms.</p>
