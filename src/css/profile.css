@@ -110,6 +110,27 @@ transition: all 1.3s;
 .nav-link.active .u-arrow {
     display: none !important;
 }
+.scrollspy-example {
+  height: 300px;
+  margin-top: .5rem;
+  overflow: auto;
+}
+.simple-list-example-scrollspy .active {
+  color:white !important;
+  background-color:black !important;
+}
+.simple-list-example-scrollspy a{
+  background-color: white !important;
+  color: black !important;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.simple-list-example-scrollspy .active .w-arrow {
+  display: inline-block !important;
+}
+.simple-list-example-scrollspy .active .u-arrow {
+  display: none !important;
+}
   p{
     color: #4D4D4D;
   }

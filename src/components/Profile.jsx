@@ -169,7 +169,7 @@ export const Profile = () => {
              </div>
         </section>
         <section id='resume' className='bg-f2f2f2'>
-            <div className='container-xl px-xl-0 px-2'>
+            <div className='container-xl px-xl-0 px-2 py-4'>
             <div className='position-relative mx-3 pt-4' >
                         <div className='d-flex align-items-center'>
                             <span className='fw-bold text-ffb647'>Resume</span>
@@ -178,7 +178,7 @@ export const Profile = () => {
                         <h5 className='fw-900 display-6 mt-4 mb-0 position-relative z-index-20'>All over my details</h5>
                         <h5 className='fw-900 display-6 mt-3 mb-0 position-relative z-index-20'>find here</h5>
                     </div>
-                <div className="row py-4 mx-2">
+                {/* <div className="row py-4 mx-2">
                     <div className="nav col-md-6 flex-column gap-3 nav-pills pe-0" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <div className="sm-w-100">
                         <button className="nav-link d-flex justify-content-between py-2 active" id="v-pills-experience-tab" data-bs-toggle="pill" data-bs-target="#v-pills-experience" type="button" role="tab" aria-controls="v-pills-experience" aria-selected="false">
@@ -268,10 +268,98 @@ export const Profile = () => {
                             </ul>
                         </div>
                     </div>
-            </div>
+                </div> */}
+
+<div class="row py-4 mx-2">
+                            <div class="col-md-6 pe-0">
+                                <div id="simple-list-example" class="d-flex sm-w-100 flex-column gap-2 simple-list-example-scrollspy text-center">
+                                        <a href='#simple-list-item-1' className=" d-flex rounded text-black justify-content-between active p-2" >
+                                            <span>Experience</span><div><img className="ms-auto u-arrow" src={uparrow} alt="uparrow" />
+                                                <img className="ms-auto w-arrow d-none" src={whitearrow} alt="whitearrow" />
+                                            </div>
+                                        </a>
+                                        <a href='#education' className=" d-flex rounded text-black justify-content-between p-2" >
+                                            <span>Education</span><div><img className="ms-auto u-arrow" src={uparrow} alt="uparrow" />
+                                                <img className="ms-auto w-arrow d-none" src={whitearrow} alt="whitearrow" />
+                                            </div>
+                                        </a>
+                                        <a href='#simple-list-item-3' className=" d-flex rounded text-black justify-content-between active p-2" >
+                                            <span>Skills</span><div><img className="ms-auto u-arrow" src={uparrow} alt="uparrow" />
+                                                <img className="ms-auto w-arrow d-none" src={whitearrow} alt="whitearrow" />
+                                            </div>
+                                        </a>
+                                        <a href='#simple-list-item-4' className=" d-flex rounded text-black justify-content-between active p-2" >
+                                            <span>Projects</span><div><img className="ms-auto u-arrow" src={uparrow} alt="uparrow" />
+                                                <img className="ms-auto w-arrow d-none" src={whitearrow} alt="whitearrow" />
+                                            </div>
+                                        </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                                <h4 id='simple-list-item-1' className='text-black fw-bold'>Experience</h4>
+                            <h6 className='text-black fw-bold'>Software Engineer</h6>
+                            <ul className='mt-3'>
+                                <li>
+                                Successfully spearheaded the development  of Exotel's integration app for the HubSpot marketplace from inception.  Skillfully crafted the server-side using Node.js, orchestrating the  exposure of over 25 REST APIs. Employed JavaScript to construct a  seamless wrapper around HubSpot's Calling SDK. Leveraged React.js, HTML,  and CSS to craft an intuitive front-end. Resulted in an impressive  average onboarding rate of 65 customers per month.
+                                </li>
+                                <li>
+                                Elevated the performance of the Freshdesk  CTI app, with a backend service in Go and a JavaScript-powered FDK app.  Pioneered the implementation of web sockets for seamless communication  between the FDK app and middleware. Implemented critical functionalities  in microservices tailored to user needs, resulting in an impressive 22%  surge in usage.
+                                </li>
+                                <li>Pioneered the creation of seven  high-impact marketplace apps using PHP and JavaScript. Subsequently,  took charge of the entire service, instigating a comprehensive redesign  of function flows to bolster efficiency. The revamp led to an impressive  47 percent reduction in response time.</li>
+                                <li>
+                                    Architected and developed a cutting-edge  gRPC module in Go for the common middleware service, prioritizing  scalability. This innovation resulted in a remarkable fivefold increase  in data transfer speed compared to traditional REST.
+                                </li>
+                                <li id='education'>
+                                Managed end-to-end ownership of the web  services I developed. This encompassed coding, comprehensive unit  testing, rigorous integration testing, adept debugging, quality  assurance, and seamless deployment. Proficiently utilized a diverse  range of frameworks and tools to ensure optimal outcomes.
+                                </li>
+                            </ul>
+                            <h4 id='simple-list-item-2' className='text-black fw-bold'>Education</h4>
+                            <ul className='d-flex flex-column gap-3 mt-3'>
+                                <li>
+                                    <h6 className='text-black fw-bold'>Aug 2022 - Dec 2023</h6>
+                                Master of Science in Computer Science
+                                </li>
+                                <li>
+                                    <h6 className='text-black fw-bold'>jul 2016 - Dec 2020</h6>
+                                Bachelor of Engineering in Computer Science and Engineering
+                                </li>
+                            </ul>
+                            <h4 id='simple-list-item-3' className='text-black fw-bold'>Skills</h4>
+                            <ul className='d-flex flex-column gap-3 mt-3'>
+                                <li>
+                                    <h6 className='text-black fw-bold'>Tech Stack</h6>
+                                    Unix/Linux, Shell  Scripting, SQL/NoSQL, Redis, Git, Cloud Technologies (AWS, Azure),  CI/CD, Jenkins, Argo CD, Ansible, Docker, Aerospike, Apache Kafka,  Kubernetes, ElasticSearch, Logstash, Kibana, Grafana, Nagios.
+                                </li>
+                                <li>
+                                    <h6 className='text-black fw-bold'>Functional Skills</h6>
+                                    Agile  software development process, Test-Driven Development, SCRUM, Atlassian  JIRA, Atlassian Confluence, Collaborative, Professional written and  verbal communications skills.
+                                </li>
+                                <li>
+                                    <h6 className='text-black fw-bold'>Programming Languages</h6>
+                                    Golang, JavaScript, Python, Java, PHP, C#, C/C++.
+                                </li>
+                                <li>
+                                    <h6 className='text-black fw-bold'>Familiar Databases</h6>
+                                    MySQL, PostgreSQL, DynamoDB, SQLite, MongoDB
+                                </li>
+                            </ul>
+                                    <h4 id="simple-list-item-4" className='text-black fw-bold'>Projects</h4>
+                                    <ul className='d-flex flex-column gap-3 mt-3'>
+                                <li><h6 className='fw-bold'>Face Recognition Attendance System</h6></li>
+                                <li><h6 className='fw-bold'>Video Calling and Screen Sharing Application</h6></li>
+                                <li><h6 className='fw-bold'>Crowd Funding Platform</h6></li>
+                                <li><h6 className='fw-bold'>TODO Application with GO</h6></li>
+                                <li><h6 className='fw-bold'>Acute Stroke Detection System</h6></li>
+                                <li><h6 className='fw-bold'>Travel and Tourism Planner</h6></li>
+                            </ul>
+                                </div>
+                            </div>
+                        </div>
+
             </div>
         </section>
-        <section id='portfolio' className='bg-ffead9 py-4'>
+        <section id='portfolio' className='bg-ffead9 py-5'>
                <div className='container-xl px-xl-0 px-2'>
             <h6 className='fw-bold text-center text-ffb647'>Portfolio</h6>
             <h4 className='fw-bold text-center'>Products I built for Exotel</h4>
@@ -309,14 +397,14 @@ export const Profile = () => {
             </div>
                </div>
         </section>
-        <section id='project' className='bg-black py-md-4 pt-4'>
-        <div className='container-xl px-xl-0 px-2'>
+        <section id='project' className='bg-black py-md-4 pt-5 pb-3'>
+        <div className='container-xl px-xl-0 px-2 py-md-3 py-0'>
         <h6 className='fw-bold text-center text-ffb647'>Works</h6>
             <h4 className='fw-bold text-center text-white mb-4'>My Projects</h4>
         <ProjectCarousel />
         </div>
         </section>
-        <section id='contact' className='bg-ffead9 py-4'>
+        <section id='contact' className='bg-ffead9 py-5'>
             <div className='container-xl px-xl-0 px-4'>
                 <div className="row mx-2">
                     <div className="col-md-4 text-black">

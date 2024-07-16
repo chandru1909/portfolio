@@ -6,25 +6,31 @@ import uparrow from "../images/uparrow.png";
 import an from "../images/an.png";
 
 export const Header = () => {
-  // useEffect(() => {
-  //   $('.w-80px').mouseenter(function() {
-  //     $(this).addClass('d-none')
-  //     $('#staticBackdrop').addClass('show');
-  //     $('.offcanvas-backdrop').addClass('show');
-  //   });
-
-  //   $('#staticBackdrop').mouseleave(function() {
-  //     $('.w-80px').removeClass('d-none')
-  //     $('#staticBackdrop').removeClass('show');
-  //     $('.offcanvas-backdrop').removeClass('show');
-  //   });
-
-  //   $('.curser').click(function() {
-  //     $('.w-80px').removeClass('d-none')
-  //     $('#staticBackdrop').removeClass('show');
-  //     $('.offcanvas-backdrop').removeClass('show');
-  //   });
-  // }, []);
+  useEffect(() => {
+    var mediaQuery = window.matchMedia('(min-width: 768px)');
+    if (mediaQuery.matches) {
+      $('.w-80px').mouseenter(function() {
+        $(this).addClass('d-none')
+        $('#staticBackdrop').addClass('show');
+        $('.offcanvas-backdrops').removeClass('d-none');
+        $('#staticBackdrop').css({'transition':'ease 0.3s'});
+      });
+  
+      $('#staticBackdrop').mouseleave(function() {
+        $('.w-80px').removeClass('d-none')
+        $('#staticBackdrop').removeClass('show');
+        $('.offcanvas-backdrops').addClass('d-none');
+        $('#staticBackdrop').css({'transition':'ease 0.3s'});
+      });
+  
+      $('.curser').click(function() {
+        $('.w-80px').removeClass('d-none')
+        $('#staticBackdrop').removeClass('show');
+        $('.offcanvas-backdrops').addClass('d-none');
+        $('#staticBackdrop').css({'transition':'ease 0.3s'});
+      });
+  }
+  }, []);
 
 
   return (
@@ -43,6 +49,7 @@ export const Header = () => {
               <div className="bg-black h-60px w-80px ms-4 me-1-c d-flex align-items-center justify-content-center navbar" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                 <FontAwesomeIcon icon={faBars} color="white" />
               </div>
+              <div className="offcanvas-backdrops d-none"></div>
               <div className="offcanvas offcanvas-end" tabIndex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                 <div className="offcanvas-header bg-black pb-0">
                   <div data-bs-dismiss="offcanvas" className='curser' aria-label="Close">

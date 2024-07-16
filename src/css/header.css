@@ -13,9 +13,16 @@ header{
 .w-80px{
     width: 80px;
 }
-.w-80px:hover .offcanvas{
-  visibility: visible !important;
-}
+.offcanvas-backdrops {
+    opacity: .5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+  }
 .border-black-bottom{
     border-bottom: 1px solid #725B38;
 }
