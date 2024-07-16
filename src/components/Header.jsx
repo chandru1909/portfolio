@@ -50,7 +50,7 @@ export const Header = () => {
                 <FontAwesomeIcon icon={faBars} color="white" />
               </div>
               <div className="offcanvas-backdrops d-none"></div>
-              <div className="offcanvas offcanvas-end" tabIndex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+              <div className="offcanvas offcanvas-end" data-bs-backdrop="static" tabIndex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                 <div className="offcanvas-header bg-black pb-0">
                   <div data-bs-dismiss="offcanvas" className='curser' aria-label="Close">
                     <FontAwesomeIcon icon={faTimes} color='white' className='fs-3'/>
