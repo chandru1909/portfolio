@@ -270,9 +270,9 @@ export const Profile = () => {
                     </div>
                 </div> */}
 
-                        <div class="row py-4 mx-2">
-                            <div class="col-md-6 px-0">
-                                <div id="simple-list-example" class="d-flex sm-w-100 flex-column gap-2 simple-list-example-scrollspy text-center">
+                        <div className="row py-4 mx-2">
+                            <div className="col-md-6 px-0">
+                                <div id="simple-list-example" className="d-flex sm-w-100 flex-column gap-2 simple-list-example-scrollspy text-center">
                                     <a href='#simple-list-item-1' className=" d-flex rounded text-black justify-content-between p-2" >
                                         <span>Experience</span><div><img className="ms-auto u-arrow" src={uparrow} alt="uparrow" />
                                             <img className="ms-auto w-arrow d-none" src={whitearrow} alt="whitearrow" />
@@ -295,8 +295,8 @@ export const Profile = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                            <div className="col-md-6">
+                                <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" className="scrollspy-example" tabindex="0">
                                     <h4 id='simple-list-item-1' className='text-black fw-bold'>Experience</h4>
                                     <h6 className='text-black fw-bold'>Software Engineer</h6>
                                     <ul className='mt-3'>
